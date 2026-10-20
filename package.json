@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "build": "node --check server.js",
-    "test": "node --test"
+    "test": "node --test",
+    "test:specfaro-contract": "node --test contract/admin-orders.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
